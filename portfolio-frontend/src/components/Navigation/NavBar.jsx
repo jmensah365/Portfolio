@@ -15,7 +15,7 @@ function NavBar() {
                 <div>
                     <a onClick={() => navigateTo('/')} className=' hover:text-sky-300 cursor-pointer'>Jeremiah Mensah</a>
                 </div>
-                <div className='flex-1'>
+                <div className='items-center space-x-8 hidden md:flex'>
                     <ul className='flex space-x-8 justify-center'>
                         <a onClick={() => navigateTo('/SDE')} className='hover:text-sky-300 cursor-pointer'>SDE Experience</a>
                         <a onClick={() => navigateTo('/SDET')} className='hover:text-sky-300 cursor-pointer'>SDET Experience</a>
