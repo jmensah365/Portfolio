@@ -3,6 +3,7 @@ import CertificationSection from './Certifications/CertificationSection'
 import SDECard from './CheckOutMyExperience/SDECard'
 import SDETCard from './CheckOutMyExperience/SDETCard'
 import EducationSection from './Education/EducationSection'
+import Footer from './Footer/Footer'
 import NavBar from './Navigation/NavBar'
 import ProfilePicture from './ProfilePictureSection/ProfilePicture'
 import ProgrammingLanguages from './TechStack/ProgrammingLanguages'
@@ -28,6 +29,7 @@ function HomePage () {
                     <SDECard/>
                     <SDETCard/>
                 </div>
+                <Footer/>
             </div>
         </>
     )

@@ -1,6 +1,6 @@
 function EducationCard() {
     return (
-        <div className="flex flex-col border-2 border-gray-700 rounded-2xl bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-lg p-8 w-96">
+        <div className="flex flex-col border-2 border-gray-700 rounded-2xl bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-lg p-8 w-96 justify-center items-center">
             <div className="flex justify-center items-center mb-4">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

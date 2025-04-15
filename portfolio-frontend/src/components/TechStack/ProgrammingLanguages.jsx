@@ -13,6 +13,7 @@ import gitLogo from '../../assets/TechIcons/Icons/icons8-git-48.png'
 import seleniumLogo from '../../assets/TechIcons/Icons/icons8-selenium-48.png'
 import cucumberLogo from '../../assets/TechIcons/Icons/Cucumber.png'
 import junitLogo from '../../assets/TechIcons/Icons/JUnit.png'
+import jMeterLogo from '../../assets/TechIcons/Icons/apple-touch-icon.png'
 
 
 function ProgrammingLanguages() {
@@ -36,6 +37,7 @@ function ProgrammingLanguages() {
                     { name: "Selenium", description: "Test Automation Tool", icon: <img src={seleniumLogo} />},
                     { name: "Cucumber", description: "Behavior-Driven Development (BDD) Tool", icon: <img className='h-10 w-10' src={cucumberLogo} />},
                     { name: "JUnit", description: "Testing Framework", icon: <img className='h-10 w-10' src={junitLogo} />},
+                    { name: "JMeter", description: "Testing Tool", icon: <img src={jMeterLogo} />},
                 ].map((tech, index) => (
                     <div
                         key={index}
