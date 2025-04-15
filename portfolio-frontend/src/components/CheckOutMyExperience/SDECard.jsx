@@ -16,7 +16,7 @@ function SDECard() {
                     <img 
                         className="h-24 w-24 m-auto"
                         src={sweLogo}
-                        alt="COMPS Senior Project"
+                        alt="Software Engineer Logo"
                     />
                 {/* </div> */}
             </div>
