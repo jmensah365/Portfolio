@@ -20,7 +20,7 @@ function ProgrammingLanguages() {
     return (
 
         <section className="py-10 text-white">
-            <div className="grid grid-cols-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 px-4 py-10 rounded-2xl bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 max-w-5xl m-auto">
+            <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 px-4 py-10 rounded-2xl bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 max-w-5xl m-auto">
                 {[
                     { name: "Java", description: "Programming Language", icon: <img src={javaIcon} />},
                     { name: "Python", description: "Programming Language", icon: <img src={pythonIcon} />},
