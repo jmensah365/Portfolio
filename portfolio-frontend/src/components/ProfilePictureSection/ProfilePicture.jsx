@@ -9,7 +9,7 @@ function ProfilePicture() {
 
     return(
         <section id='profilePicture'>
-                    <div className='flex justify-center gap-10 pt-60 '>
+                    <div className='flex flex-col md:flex-row justify-center gap-10 pt-60 '>
                         <img className='h-96 w-96 object-cover rounded-full border-4 border-sky-400 shadow-lg' 
                             src={headshot} 
                             alt='Jeremiah Mensah headshot photo'
@@ -19,7 +19,7 @@ function ProfilePicture() {
                             <h1 className='text-5xl font-bold'>Jeremiah Mensah</h1>
 
                             {/* Button Section */}
-                            <div className='flex pt-5 pl-5 gap-5'>
+                            <div className='flex justify-center pt-5 gap-5'>
                                 <a 
                                     href='/JM_Resume.pdf'
                                     download='Jeremiah_Mensah_Resume.pdf'
@@ -33,8 +33,7 @@ function ProfilePicture() {
                             </div>
                             
                             {/* Icon links to Github and LinkedIn */}
-                            <div className='flex'>
-                                <div class="pt-5 pl-30">
+                            <div className='flex justify-center pt-5 gap-5'>
                                     <a
                                         href='https://github.com/jmensah365'
                                         target='_blank'
@@ -49,8 +48,6 @@ function ProfilePicture() {
                                             />
                                         </svg>
                                     </a>
-                                </div>
-                                <div class="pt-5 pl-15">
                                     <a
                                         href='https://www.linkedin.com/in/jeremiah-mensah-b42b45180/'
                                         target='_blank'
@@ -64,7 +61,6 @@ function ProfilePicture() {
                                             d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
                                         </svg>
                                     </a>
-                                </div>
                             </div>
                         </div>
                     </div>
