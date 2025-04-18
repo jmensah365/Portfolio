@@ -1,5 +1,6 @@
 import '../../App.css'
 import NavBar from '../Navigation/NavBar'
+import Footer from '../Footer/Footer'
 
 
 
@@ -20,6 +21,16 @@ function SDEPage () {
                         </span>
                         <h4 className='text-2xl font-bold text-green-400'>SkillStorm</h4>
                         <p className='text-sm text-white'>July 2024 - Present</p>
+                        {/* <p className='text-sm'>Deployed app: </p> */}
+                        <p className='mb-2 text-xs md:text-sm'>Github:  
+                            <a
+                                className='text-blue-500 underline'
+                                href='https://github.com/jmensah365/Sweet2Neat'
+                                target='_blank'
+                            >
+                                https://github.com/jmensah365/Sweet2Neat
+                                </a>
+                        </p>
                         <p className='text-sm'>
                         Developed a full-stack Inventory Management System using Spring Boot, PostgreSQL, and ReactJS, enabling efficient inventory tracking with CRUD functionality. 
                         I designed and implemented a PostgreSQL database with five entities to manage inventory, orders, stock, and warehouses. 
@@ -54,6 +65,7 @@ function SDEPage () {
                         </ul>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </section>
     </div>

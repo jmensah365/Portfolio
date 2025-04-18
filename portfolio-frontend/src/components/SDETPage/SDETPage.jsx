@@ -19,7 +19,7 @@ function SDETPage() {
                             </span>
                             <h4 className='text-2xl font-bold text-green-400'>SkillStorm</h4>
                             <p className='text-sm text-white'>July 2024 - Present</p>
-                            <p className='mb-2 text-sm'>Github:  
+                            <p className='mb-2 text-xs md:text-sm'>Github:  
                             <a
                                 className='text-blue-500 underline'
                                 href='https://github.com/jmensah365/Sweet2Neat'
