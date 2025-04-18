@@ -1,12 +1,13 @@
 import '../../App.css'
 import NavBar from '../Navigation/NavBar'
+import Footer from '../Footer/Footer'
 
 function SDETPage() {
     return(
-            <div className='bg-slate-950 min-h-screen'>
+            <div className='bg-slate-950 min-h-screen flex flex-col'>
             {/* Nav Section */}
             <NavBar/>
-            <section className='py-10 text-white'>
+            <section className='py-10 text-white flex-grow'>
                 <div className='max-w-5xl mx-auto px-6'>
                     <h2 className='text-4xl font-bold text-center mt-10'>SDET Experience</h2>
                     <div className='relative border-l border-gray-700'>
@@ -18,6 +19,15 @@ function SDETPage() {
                             </span>
                             <h4 className='text-2xl font-bold text-green-400'>SkillStorm</h4>
                             <p className='text-sm text-white'>July 2024 - Present</p>
+                            <p className='mb-2 text-sm'>Github:  
+                            <a
+                                className='text-blue-500 underline'
+                                href='https://github.com/jmensah365/Sweet2Neat'
+                                target='_blank'
+                            >
+                                https://github.com/jmensah365/Sweet2Neat
+                                </a>
+                            </p>
                             <p className='text-sm'>
                             Budget Buddy focused on building a financial management application to help users track transactions and manage their budgets effectively. 
                             As part of the testing team, I conducted functional and acceptance tests using Selenium for UI automation, Cucumber for BDD scenarios, and TestNG to validate transaction page functionalities. 
@@ -30,8 +40,10 @@ function SDETPage() {
                             </ul>
                         </div>
                     </div>
+                
                 </div>
             </section>
+            <Footer/>
         </div>
     )
 
