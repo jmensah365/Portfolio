@@ -35,14 +35,14 @@ function ProgrammingLanguages() {
                     { name: "Spring Boot", description: "Java Framework", icon: <img src={springBootIcon} />},
                     { name: "Unity", description: "Game Development Platform", icon: <img src={unityIcon} />},
                     { name: "Jenkins", description: "CI/CD Tool", icon: <img src={jenkinsIcon} />},
-                    { name: "SonarQube", description: "Code Quality Tool", icon: <img src={sonarQubeSVG} />},
+                    { name: "AWS", description: "Cloud Computing", icon: <img src={awsLogo} />},
                     { name: "Git", description: "Version Control", icon: <img src={gitLogo} />},
                     { name: "Selenium", description: "Test Automation Tool", icon: <img src={seleniumLogo} />},
                     { name: "Cucumber", description: "Behavior-Driven Development (BDD) Tool", icon: <img className='h-10 w-10' src={cucumberLogo} />},
                     { name: "JUnit", description: "Testing Framework", icon: <img className='h-10 w-10' src={junitLogo} />},
                     { name: "JMeter", description: "Testing Tool", icon: <img src={jMeterLogo} />},
                     { name: "PostMan", description: "API Tool", icon: <img src={postmanLogo} />},
-                    { name: "AWS", description: "Cloud Computing", icon: <img src={awsLogo} />},
+                    { name: "SonarQube", description: "Code Quality Tool", icon: <img src={sonarQubeSVG} />},
                 ].map((tech, index) => (
                     <div
                         key={index}

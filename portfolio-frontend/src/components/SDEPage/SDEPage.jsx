@@ -21,7 +21,15 @@ function SDEPage () {
                         </span>
                         <h4 className='text-2xl font-bold text-green-400'>SkillStorm</h4>
                         <p className='text-sm text-white'>July 2024 - Present</p>
-                        {/* <p className='text-sm'>Deployed app: </p> */}
+                        <p className='text-xs md:text-sm'>Website: 
+                            <a
+                                className='text-blue-500 underline'
+                                href='http://jm-cim-frontend.s3-website-us-east-1.amazonaws.com/'
+                                target='_blank'
+                            >
+                                Sweet2Neat
+                            </a>
+                        </p>
                         <p className='mb-2 text-xs md:text-sm'>Github:  
                             <a
                                 className='text-blue-500 underline'
@@ -34,7 +42,7 @@ function SDEPage () {
                         <p className='text-sm'>
                         Developed a full-stack Inventory Management System using Spring Boot, PostgreSQL, and ReactJS, enabling efficient inventory tracking with CRUD functionality. 
                         I designed and implemented a PostgreSQL database with five entities to manage inventory, orders, stock, and warehouses. 
-                        On the backend, I built and exposed RESTful APIs while also assisting in deploying the frontend and backend to AWS. 
+                        On the backend, I built and exposed RESTful APIs while also assisting in deploying the frontend, backend, and database to AWS. 
                         Additionally, I conducted unit testing with Mockito and TestNG, and functional tests with Selenium and Cucumber while ensuring high code quality using SonarQube. 
                         I also helped configure a Jenkins pipeline for CI/CD, automating the build and testing process.
                         </p>
