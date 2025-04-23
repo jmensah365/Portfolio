@@ -9,8 +9,8 @@ function ProfilePicture() {
 
     return(
         <section id='profilePicture'>
-                    <div className='flex flex-col md:flex-row justify-center gap-10 pt-60 '>
-                        <img className='h-96 w-96 object-cover rounded-full border-4 border-sky-400 shadow-lg' 
+                    <div className='flex flex-col md:flex-row justify-center gap-10 pt-48 '>
+                        <img className='h-96 w-96 object-cover rounded-full p-1 bg-gradient-to-bl from-pink-600 to-blue-600 shadow-lg' 
                             src={headshot} 
                             alt='Jeremiah Mensah headshot photo'
                         />

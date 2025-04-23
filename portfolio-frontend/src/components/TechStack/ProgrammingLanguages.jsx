@@ -14,12 +14,15 @@ import seleniumLogo from '../../assets/TechIcons/Icons/icons8-selenium-48.png'
 import cucumberLogo from '../../assets/TechIcons/Icons/Cucumber.png'
 import junitLogo from '../../assets/TechIcons/Icons/JUnit.png'
 import jMeterLogo from '../../assets/TechIcons/Icons/apple-touch-icon.png'
+import postmanLogo from '../../assets/TechIcons/Icons/icons8-postman-inc-48.png'
+import awsLogo from '../../assets/TechIcons/Icons/icons8-aws-48.png'
 
 
 function ProgrammingLanguages() {
     return (
 
-        <section className="py-10 text-white">
+        <section className="py-10 text-white pt-30">
+            <h1 className='flex justify-center items-center mt-20 font-bold text-5xl pb-10 text-shadow-sm/10'>Tech Stack</h1>
             <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 px-4 py-10 rounded-2xl bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 max-w-5xl m-auto">
                 {[
                     { name: "Java", description: "Programming Language", icon: <img src={javaIcon} />},
@@ -38,10 +41,12 @@ function ProgrammingLanguages() {
                     { name: "Cucumber", description: "Behavior-Driven Development (BDD) Tool", icon: <img className='h-10 w-10' src={cucumberLogo} />},
                     { name: "JUnit", description: "Testing Framework", icon: <img className='h-10 w-10' src={junitLogo} />},
                     { name: "JMeter", description: "Testing Tool", icon: <img src={jMeterLogo} />},
+                    { name: "PostMan", description: "API Tool", icon: <img src={postmanLogo} />},
+                    { name: "AWS", description: "Cloud Computing", icon: <img src={awsLogo} />},
                 ].map((tech, index) => (
                     <div
                         key={index}
-                        className={`flex flex-col items-center justify-center p-3 rounded-md bg-gray-800 hover:bg-gray-700 transition-transform duration-300 transform hover:scale-105 shadow-md col-span-${tech.colSpan} row-span-${tech.rowSpan}`}
+                        className={'flex flex-col items-center justify-center p-3 rounded-md bg-gray-800 hover:bg-gray-700 transition-transform duration-300 transform hover:scale-105 shadow-md hover:border-2 border-blue-400'}
                     >
                         <div className="text-lg mb-2">{tech.icon}</div>
                         <h3 className="text-2xl font-bold text-center">{tech.name}</h3>

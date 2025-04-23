@@ -9,7 +9,7 @@ function ContactMe() {
             <div className=" px-10 py-10 rounded-2xl flex flex-col items-center justify-center max-w-5xl m-auto pt-20">
                 <section className="py-10 text-white">
                     <NavBar />
-                    <h2 className="text-4xl font-bold mb-4 text-center text-blue-400">
+                    <h2 className="text-4xl font-bold mb-4 text-center">
                         Contact Me
                     </h2>
                     <p className="text-center text-gray-300 mb-6">

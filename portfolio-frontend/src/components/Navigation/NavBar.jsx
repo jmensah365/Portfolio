@@ -13,7 +13,7 @@ function NavBar() {
         <nav className='dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600 rounded-b-2xl text-white'>
             <div className='flex justify-between px-10 py-4 text-lg'>
                 <div>
-                    <button onClick={() => navigateTo('/')} className=' hover:text-sky-300 cursor-pointer'>Jeremiah Mensah</button>
+                    <button onClick={() => navigateTo('/')} className='cursor-pointer bg-gradient-to-bl from-pink-600 to-blue-600 text-transparent bg-clip-text text-2xl'>Jeremiah Mensah</button>
                 </div>
                 <div className='items-center space-x-8 hidden md:flex'>
                     <ul className='flex space-x-8 justify-center items-center'>
