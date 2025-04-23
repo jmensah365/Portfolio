@@ -49,7 +49,7 @@ function SDEPage () {
                         <ul className='list-disc list-inside space-y-2 text-sm mt-4 ml-10'>
                                 <li>Developed a full-stack candy inventory management solution using SpringBoot, PostgreSQL, and ReactJS, providing CRUD functionality</li>
                                 <li>Implemented and exposed RESTful APIs for CRUD operations on inventory items, orders, stock, and warehouse data, ensuring seamless interaction between frontend and backend services</li>
-                                <li>Created and optimized PostgreSQL database schemas with 5 different entities to ensure proper database integrity</li>
+                                <li>Optimized database design and integrity using PostgreSQL for scalable and efficient data handling</li>
                                 <li>Performed backend unit tests with Mockito and TestNG, validating core functionalities and code reliability</li>
                                 <li>Utilized SonarQube for static code analysis, ensuring high code quality and adherence to OWASP security standards</li>
                                 <li>Configured Jenkins pipelines for continuous integration and deployment (CI/CD), automating build and testing processes.</li>

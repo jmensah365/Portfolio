@@ -56,13 +56,8 @@ function SDETPage() {
                                 https://github.com/jmensah365/Sweet2Neat
                                 </a>
                             </p>
-                            {/* <p className='text-sm'>
-                            Budget Buddy focused on building a financial management application to help users track transactions and manage their budgets effectively. 
-                            As part of the testing team, I conducted functional and acceptance tests using Selenium for UI automation, Cucumber for BDD scenarios, and TestNG to validate transaction page functionalities. 
-                            I also ensured frontend reliability by testing React UI components with Jest, achieving 96.5% statement coverage and 96.35% line coverage on transaction pages. Working within an Agile team, I helped align testing efforts with evolving requirements and acceptance criteria.
-                            </p> */}
                             <ul className='list-disc list-inside space-y-2 text-sm mt-4 ml-10'>
-                                <li>Followed a Test-Driven Development (TDD) approach to write user stories and implemented automated testing using Selenium, Cucumber, and TestNG for comprehensive coverage</li>
+                                <li>Followed a Test-Driven Development (TDD), creating user stories, writing maintainable code, and ensuring comprehensive test coverage with Selenium, Cucumber, and TestNG</li>
                                 <li>Performed performance and stress testing using JMeter, identifying bottlenecks and optimizing system response times under high load</li>
                                 <li>Utilized Burp Suite to identify and mitigate potential security vulnerabilities</li>
                                 <li>Integrated functional, unit, and performance tests into the CI/CD pipeline, achieving fully automated testing</li>
