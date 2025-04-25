@@ -4,7 +4,7 @@ import Footer from '../Footer/Footer'
 
 function SDETPage() {
     return(
-            <div className='bg-slate-950 min-h-screen flex flex-col'>
+            <div className='bg-black min-h-screen flex flex-col'>
             {/* Nav Section */}
             <NavBar/>
             <section className='py-10 text-white flex-grow'>

@@ -4,7 +4,7 @@ import NavBar from "../Navigation/NavBar"
 
 function ContactMe() {
     return (
-        <div className='bg-slate-950 min-h-screen '>
+        <div className='bg-black min-h-screen '>
 
             <div className=" px-10 py-10 rounded-2xl flex flex-col items-center justify-center max-w-5xl m-auto pt-20">
                 <section className="py-10 text-white">

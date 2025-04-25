@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer'
 
 function SDEPage () {
     return (
-        <div className='bg-slate-950 min-h-screen'>
+        <div className='bg-black min-h-screen'>
         {/* Nav Section */}
         <NavBar/>
         <section className='py-10 text-white'>
