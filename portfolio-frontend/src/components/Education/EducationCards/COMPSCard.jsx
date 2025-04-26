@@ -13,7 +13,7 @@ function COMPSCard() {
                 <a
                     href="https://cs.carleton.edu/cs_comps/2324/fairnessInClustering/final-results/index.html"
                     target="_blank"
-                    className="px-4 py-2 text-white rounded-full hover:bg-blue-600 transition delay-100 duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 shadow-lg"
+                    className="px-4 py-2 text-white rounded-full hover:bg-blue-600 transition delay-100 duration-300 ease-in-out hover:-translate-y-2 hover:scale-105 shadow-lg ring-2"
                 >
                     View Project
                 </a>

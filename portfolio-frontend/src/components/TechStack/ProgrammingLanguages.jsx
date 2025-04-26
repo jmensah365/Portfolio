@@ -46,7 +46,7 @@ function ProgrammingLanguages() {
                 ].map((tech, index) => (
                     <div
                         key={index}
-                        className={'flex flex-col items-center justify-center p-3 rounded-md bg-gray-800 hover:bg-gray-700 transition-transform duration-300 transform hover:scale-105 shadow-md hover:border-2 border-blue-400'}
+                        className={'flex flex-col items-center justify-center p-3 rounded-md bg-gray-800 hover:bg-gray-700 transition-transform duration-300 transform hover:scale-105 shadow-md hover:outline-3 outline-blue-400 hover:outline-double'}
                     >
                         <div className="text-lg mb-2">{tech.icon}</div>
                         <h3 className="text-2xl font-bold text-center">{tech.name}</h3>

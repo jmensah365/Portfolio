@@ -9,9 +9,10 @@ function JavaCert() {
             <a
                 href='https://lnkd.in/gZx5ggZN'
                 target='_blank'
-                className='font-semibold mt-4 hover:bg-blue-600 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 cursor-pointer rounded-full shadow-lg px-2 py-1'
+                className='font-semibold mt-8 hover:bg-blue-600 transition delay-100 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 cursor-pointer rounded-full shadow-xl/30 ring-2 px-2 py-1'
             >
-                Certview</a>
+                Certview
+                </a>
         </div>
     )
 }
