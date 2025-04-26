@@ -1,6 +1,7 @@
 import '../../App.css'
 import NavBar from '../Navigation/NavBar'
 import Footer from '../Footer/Footer'
+import externalLink from '../../assets/TechIcons/Icons/icons8-external-link.svg'
 
 
 
@@ -21,22 +22,24 @@ function SDEPage () {
                         </span>
                         <h4 className='text-2xl font-bold text-green-400'>SkillStorm</h4>
                         <p className='text-sm text-white'>July 2024 - Present</p>
-                        <p className='text-xs md:text-sm'>Website: 
+                        <p className='text-xs md:text-sm'> 
                             <a
-                                className='text-blue-500 underline'
+                                className='text-blue-500 underline inline-flex items-center justify-center'
                                 href='http://jm-cim-frontend.s3-website-us-east-1.amazonaws.com/'
                                 target='_blank'
                             >
-                                Sweet2Neat
+                                Inventory Management System
+                                <img className='w-5 pl-0.5' src={externalLink}/>
                             </a>
                         </p>
-                        <p className='mb-2 text-xs md:text-sm'>Github:  
+                        <p className='mb-2 text-xs md:text-sm'> 
                             <a
-                                className='text-blue-500 underline'
+                                className='text-blue-500 underline inline-flex items-center justify-center'
                                 href='https://github.com/jmensah365/Sweet2Neat'
                                 target='_blank'
                             >
-                                https://github.com/jmensah365/Sweet2Neat
+                                Github
+                                <img className='w-5 pl-0.5' src={externalLink}/>
                                 </a>
                         </p>
                         <p className='text-sm'>

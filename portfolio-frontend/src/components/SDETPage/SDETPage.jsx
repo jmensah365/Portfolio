@@ -1,6 +1,7 @@
 import '../../App.css'
 import NavBar from '../Navigation/NavBar'
 import Footer from '../Footer/Footer'
+import externalLink from '../../assets/TechIcons/Icons/icons8-external-link.svg'
 
 function SDETPage() {
     return(
@@ -19,13 +20,14 @@ function SDETPage() {
                             </span>
                             <h4 className='text-2xl font-bold text-green-400'>SkillStorm</h4>
                             <p className='text-sm text-white'>July 2024 - Present</p>
-                            <p className='mb-2 text-xs md:text-sm'>Github:  
+                            <p className='mb-2 text-xs md:text-sm'>  
                             <a
-                                className='text-blue-500 underline'
+                                className='text-blue-500 underline inline-flex items-center justify-center'
                                 href='https://github.com/My-Budget-Buddy/Budget-Buddy-Frontend-Testing'
                                 target='_blank'
                             >
-                                https://github.com/My-Budget-Buddy/Budget-Buddy-Frontend-Testing
+                                Github
+                                <img className='w-5 pl-0.5' src={externalLink}/>
                                 </a>
                             </p>
                             <p className='text-sm'>
@@ -47,13 +49,14 @@ function SDETPage() {
                             </span>
                             <h4 className='text-2xl font-bold text-green-400'>SkillStorm</h4>
                             <p className='text-sm text-white'>July 2024 - Present</p>
-                            <p className='mb-2 text-xs md:text-sm'>Github:  
+                            <p className='mb-2 text-xs md:text-sm'>  
                             <a
-                                className='text-blue-500 underline'
-                                href='https://github.com/jmensah365/Sweet2Neat'
+                                className='text-blue-500 underline inline-flex justify-center items-center'
+                                href='https://github.com/jmensah365/Sweet2Neat/tree/master/Testing'
                                 target='_blank'
                             >
-                                https://github.com/jmensah365/Sweet2Neat
+                                Github
+                                <img className='w-5 pl-0.5' src={externalLink}/>
                                 </a>
                             </p>
                             <ul className='list-disc list-inside space-y-2 text-sm mt-4 ml-10'>
