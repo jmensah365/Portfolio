@@ -6,9 +6,9 @@ function ProfilePicture() {
     const navigateTo = (path) => {
         navigate(path);
     }
-    const resume = document.getElementById("My Resume");
 
     const resumeScrollIntoView = () => {
+        const resume = document.getElementById("My Resume");
         resume.scrollIntoView({behavior: 'smooth'});
     }
 
