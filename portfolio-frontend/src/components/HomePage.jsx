@@ -6,6 +6,7 @@ import EducationSection from './Education/EducationSection'
 import Footer from './Footer/Footer'
 import NavBar from './Navigation/NavBar'
 import ProfilePicture from './ProfilePictureSection/ProfilePicture'
+import MyResume from './Resume/MyResume'
 import ProgrammingLanguages from './TechStack/ProgrammingLanguages'
 
 
@@ -29,9 +30,7 @@ function HomePage () {
                     <SDECard/>
                     <SDETCard/>
                 </div>
-                {/* <div className='flex justify-center items-center h-screen'>
-                    <embed src='/JM_Resume.pdf' type='application/pdf' className='w-full max-w-screen-md h-full max-h-screen-md border rounded=lg'/>
-                </div> */}
+                <MyResume/>
                 
                 <Footer/>
             </div>

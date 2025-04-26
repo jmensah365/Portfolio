@@ -6,6 +6,11 @@ function ProfilePicture() {
     const navigateTo = (path) => {
         navigate(path);
     }
+    const resume = document.getElementById("My Resume");
+
+    const resumeScrollIntoView = () => {
+        resume.scrollIntoView({behavior: 'smooth'});
+    }
 
     return(
         <section id='profilePicture'>
@@ -20,13 +25,19 @@ function ProfilePicture() {
 
                             {/* Button Section */}
                             <div className='flex justify-center pt-5 gap-5'>
-                                <a 
+                                <button 
+                                    onClick={() => resumeScrollIntoView()}
+                                    className='px-6 py-2 rounded-full border-2 hover:bg-gray-800 cursor-pointer shadow-lg'
+                                >
+                                    View Resume
+                                </button>
+                                {/* <a 
                                     href='/JM_Resume.pdf'
                                     download='Jeremiah_Mensah_Resume.pdf'
                                     className='px-6 py-2 rounded-full border-2 hover:bg-gray-800 cursor-pointer shadow-lg'
                                 >
                                     Download Resume
-                                </a>
+                                </a> */}
                                 <button onClick={() => navigateTo('/ContactMe')} className='px-6 py-2 rounded-full border-2 bg-blue-800  hover:bg-blue-600  cursor-pointer shadow-lg'>
                                     Contact Me
                                 </button>
