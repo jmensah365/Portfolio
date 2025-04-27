@@ -14,7 +14,7 @@ function HomePage () {
     return (
         <>
             {/* Overarching div that contains main content */}
-            <div className='bg-black min-h-screen font-roboto'>
+            <div id='top_homepage' className='bg-black min-h-screen font-roboto'>
                 {/* Nav Section */}
                 <NavBar/>
                 {/* Profile picture section */}
@@ -26,7 +26,7 @@ function HomePage () {
                 {/* Tech Stack */}
                 {/* <h1 className='flex text-white justify-center items-center mt-20 font-bold text-5xl'>Tech Stack</h1> */}
                 <ProgrammingLanguages/>
-                <div className='flex flex-col space-y-10 md:flex-row lg:flex-row justify-center items-center md:space-x-10 md:space-y-0 '>
+                <div className='flex flex-col space-y-10 md:flex-row lg:flex-row justify-center items-center md:space-x-10 md:space-y-0 pt-20'>
                     <SDECard/>
                     <SDETCard/>
                 </div>
