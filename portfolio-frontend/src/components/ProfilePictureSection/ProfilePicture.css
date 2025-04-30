@@ -1,0 +1,57 @@
+@import 'tailwindcss';
+
+@theme {
+    --animate-typewriter: typing 2s steps(15) forwards;
+
+    @keyframes typing {
+        0% {
+            width: 0ch;
+            visibility: hidden;
+        }
+
+        100% {
+            width: 14ch;
+        }
+    }
+
+    @keyframes blink {
+
+        0%,
+        100% {
+            border-color: transparent;
+        }
+
+        50% {
+            border-color: currentColor;
+        }
+    }
+
+}
+
+@theme {
+    --animate-typewriter-p: typing-p 2s steps(15) forwards;
+
+    @keyframes typing-p {
+        0% {
+            width: 0ch;
+            visibility: hidden;
+        }
+
+        100% {
+            width: 6ch;
+        }
+    }
+
+    @keyframes blink {
+
+        0%,
+        100% {
+            border-color: transparent;
+        }
+
+        50% {
+            border-color: currentColor;
+        }
+    }
+
+}

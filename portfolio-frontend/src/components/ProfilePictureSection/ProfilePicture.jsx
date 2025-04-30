@@ -1,7 +1,11 @@
 import '../../App.css'
 import headshot from '../../assets/IMG_9276.png'
 import { useNavigate } from 'react-router-dom';
+import './ProfilePicture.css'
+import { useEffect, useState } from 'react';
+
 function ProfilePicture() {
+    const [animationFinished, setAnimationFinished] = useState(false);
     const navigate = useNavigate();
     const navigateTo = (path) => {
         navigate(path);
@@ -12,6 +16,14 @@ function ProfilePicture() {
         resume.scrollIntoView({behavior: 'smooth'});
     }
 
+    useEffect(() => {
+        const timer = setTimeout(() => setAnimationFinished(true), 2000);
+        return () => clearTimeout(timer);
+    }, []);
+
+
+
+
     return(
         <section id='profilePicture'>
                     <div className='flex flex-col md:flex-row justify-center gap-10 pt-48 '>
@@ -20,8 +32,8 @@ function ProfilePicture() {
                             alt='Jeremiah Mensah headshot photo'
                         />
                         <div className='text-white text-center pt-20'>
-                            <p className='font-light text-2xl'>Hi i'm</p>
-                            <h1 className='text-5xl font-bold'>Jeremiah Mensah</h1>
+                            <p className={`font-light text-2xl inline-block animate-typewriter-p overflow-hidden whitespace-nowrap ${animationFinished ? 'border-none' : "border-r-4 border-r-white"}`}>Hi i'm</p>
+                            <h1 className={`text-5xl font-bold animate-typewriter overflow-hidden whitespace-nowrap ${animationFinished ? 'border-none' : 'border-r-4 border-r-white'}`}>Jeremiah Mensah</h1>
 
                             {/* Button Section */}
                             <div className='flex justify-center pt-5 gap-5'>
