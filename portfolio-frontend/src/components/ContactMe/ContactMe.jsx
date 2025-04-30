@@ -13,7 +13,7 @@ function ContactMe() {
                         Contact Me
                     </h2>
                     <p className="text-center text-gray-300 mb-6">
-                        Got a question or want to work together? Let me know!
+                        Have a question or think I would be a good fit? Let's connect!
                     </p>
                     <form
                         id="form"
