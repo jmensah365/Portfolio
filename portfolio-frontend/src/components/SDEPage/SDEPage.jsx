@@ -7,7 +7,7 @@ import externalLink from '../../assets/TechIcons/Icons/icons8-external-link.svg'
 
 function SDEPage () {
     return (
-        <div className='bg-black min-h-screen'>
+        <div className='bg-black min-h-screen animate-fade-left'>
         {/* Nav Section */}
         <NavBar/>
         <section className='py-10 text-white'>

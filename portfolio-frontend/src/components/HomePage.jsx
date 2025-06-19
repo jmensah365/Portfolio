@@ -8,13 +8,14 @@ import NavBar from './Navigation/NavBar'
 import ProfilePicture from './ProfilePictureSection/ProfilePicture'
 import MyResume from './Resume/MyResume'
 import ProgrammingLanguages from './TechStack/ProgrammingLanguages'
+import './HomePage.css'
 
 
 function HomePage () {
     return (
         <>
             {/* Overarching div that contains main content */}
-            <div id='top_homepage' className='bg-black min-h-screen font-roboto'>
+            <div id='top_homepage' className='bg-black  min-h-screen font-roboto animate-fade-up'>
                 {/* Nav Section */}
                 <NavBar/>
                 {/* Profile picture section */}
