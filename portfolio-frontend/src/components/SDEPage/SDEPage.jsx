@@ -15,13 +15,13 @@ function SDEPage () {
                 <h2 className='text-4xl font-bold text-center mt-10'>SDE Experience</h2>
                 <div className='relative border-l border-gray-700'>
                     <div className='mb-10 ml-8'>
-                        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-green-400 rounded-full">
+                        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-400 rounded-full">
                             <svg className="w-3 h-3 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
                                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
                             </svg>
                         </span>
                         <h4 className='text-2xl font-bold text-green-400'>SkillStorm</h4>
-                        <p className='text-sm text-white'>July 2024 - Present</p>
+                        <p className='text-sm text-white'>July 2024 - April 2025</p>
                         <p className='text-xs md:text-sm'> 
                             <a
                                 className='text-blue-500 underline inline-flex items-center justify-center'
