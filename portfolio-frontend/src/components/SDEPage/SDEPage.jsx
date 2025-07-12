@@ -20,7 +20,7 @@ function SDEPage () {
                                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
                             </svg>
                         </span>
-                        <h4 className='text-2xl font-bold text-green-400'>SkillStorm</h4>
+                        <h4 className='text-2xl font-bold text-blue-400'>SkillStorm</h4>
                         <p className='text-sm text-white'>July 2024 - April 2025</p>
                         <p className='text-xs md:text-sm'> 
                             <a
