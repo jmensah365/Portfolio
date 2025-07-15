@@ -27,7 +27,7 @@ function ProfilePicture() {
 
     return (
         <section id='profilePicture'>
-            <div id='test' className='flex flex-col md:flex-row justify-center gap-10 pt-48  animate-scroll'>
+            <div id='test' className='flex flex-col md:flex-row items-center justify-center gap-10 pt-48  animate-scroll'>
                 <img className='h-96 w-96 object-cover rounded-full p-1 bg-gradient-to-bl from-pink-600 to-blue-600 shadow-lg'
                     src={headshot}
                     alt='Jeremiah Mensah headshot photo'

@@ -58,6 +58,39 @@ function SDEPage () {
                                 <li>Configured Jenkins pipelines for continuous integration and deployment (CI/CD), automating build and testing processes.</li>
                         </ul>
                     </div>
+
+                    <div className='mb-10 ml-8'>
+                        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-400 rounded-full">
+                            <svg className="w-3 h-3 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
+                            </svg>
+                            </span>
+                        <h4 className='text-2xl font-bold text-blue-400'>Carleton College</h4>
+                        <p className='text-sm text-white'>March 2023 - June 2024</p>
+                        <ul className='list-disc list-inside space-y-2 text-sm mt-4 ml-10'>
+                            <li>Developed an interactive Unity application using C# for PTSD prevention research, integrating haptic feedback suits for enhanced realism</li>
+                            <li>Collobarated directly with psychology professor and research team to implement scenarios and stimuli in the application, ensuring alignment with research objectives</li>
+                            <li>Reported progress and deliverables to both psychology professor and IT manager, ensuring alignment with academic and technical requirements</li>
+                        </ul>
+                    </div>
+
+                    <div className='mb-10 ml-8'>
+                        <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-400 rounded-full">
+                            <svg className="w-3 h-3 text-gray-900" fill="currentColor" viewBox="0 0 20 20">
+                                <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 001 1h2a1 1 0 100-2h-1V7z" clipRule="evenodd" />
+                            </svg>
+                            </span>
+                        <h4 className='text-2xl font-bold text-blue-400'>Carleton College</h4>
+                        <p className='text-sm text-white'>January 2023 - June 2024</p>
+                        <ul className='list-disc list-inside space-y-2 text-sm mt-4 ml-10'>
+                            <li>Led development of a Unity Schizophrenia VR project using C#, enhancing graphics, content, and realism for educational virtual environments</li>
+                            <li>Optimized VR application using OpenXR for cross-platform compatibility across Oculus Rift, HTC Vive, and other VR platforms</li>
+                            <li>Resolved technical glitches in the scripts, delivering a polished application while maintaining existing application infrastructure</li>
+                            <li>Designed and implemented 6 new interactive elements for the VR experience, enhancing user experience and engagement</li>
+                            <li>Maintained and debugged existing application infrastructure, resolving critical bugs and ensuring the continuation of research data collection</li>
+                        </ul>
+                    </div>
+
                     
                     <div className='mb-10 ml-8'>
                         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-400 rounded-full">
