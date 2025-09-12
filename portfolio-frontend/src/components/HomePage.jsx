@@ -2,6 +2,7 @@ import '../App.css'
 import CertificationSection from './Certifications/CertificationSection'
 import SDECard from './CheckOutMyExperience/SDECard'
 import SDETCard from './CheckOutMyExperience/SDETCard'
+import AniMatchCard from './AniMatch/AniMatchCard'
 import EducationSection from './Education/EducationSection'
 import Footer from './Footer/Footer'
 import NavBar from './Navigation/NavBar'
@@ -9,6 +10,7 @@ import ProfilePicture from './ProfilePictureSection/ProfilePicture'
 import MyResume from './Resume/MyResume'
 import ProgrammingLanguages from './TechStack/ProgrammingLanguages'
 import './HomePage.css'
+import ProjectsSection from './Projects/Projects'
 
 
 function HomePage () {
@@ -27,6 +29,7 @@ function HomePage () {
                 {/* Tech Stack */}
                 {/* <h1 className='flex text-white justify-center items-center mt-20 font-bold text-5xl'>Tech Stack</h1> */}
                 <ProgrammingLanguages/>
+                <ProjectsSection/>
                 <div className='flex flex-col space-y-10 md:flex-row lg:flex-row justify-center items-center md:space-x-10 md:space-y-0 pt-20'>
                     <SDECard/>
                     <SDETCard/>
