@@ -30,12 +30,14 @@ export default function AniMatchCard() {
                     >
                         GitHub
                     </a>
-                    <button
-                        disabled
-                        className="bg-gray-700 text-gray-400 text-xs font-semibold py-1.5 px-3 rounded-lg cursor-not-allowed"
+                    <a
+                        href='https://main.d3g0kvhjymladl.amplifyapp.com/'
+                        target='_blank'
+                        rel="noopener noreferrer"
+                        className="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold py-1.5 px-3 rounded-lg"
                     >
-                        Demo Coming Soon
-                    </button>
+                        AniMatch
+                    </a>
                 </div>
             </div>
         </div>
