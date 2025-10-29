@@ -23,14 +23,14 @@ function SDEPage () {
                         <h4 className='text-2xl font-bold text-blue-400'>SkillStorm</h4>
                         <p className='text-sm text-white'>July 2024 - April 2025</p>
                         <p className='text-xs md:text-sm'> 
-                            <a
+                            {/* <a
                                 className='text-blue-500 underline inline-flex items-center justify-center'
                                 href='http://jm-cim-frontend.s3-website-us-east-1.amazonaws.com/'
                                 target='_blank'
                             >
                                 Inventory Management System
                                 <img className='w-5 pl-0.5' src={externalLink}/>
-                            </a>
+                            </a> */}
                         </p>
                         <p className='mb-2 text-xs md:text-sm'> 
                             <a
