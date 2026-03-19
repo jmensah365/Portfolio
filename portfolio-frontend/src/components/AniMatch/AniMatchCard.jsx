@@ -31,7 +31,7 @@ export default function AniMatchCard() {
                         GitHub
                     </a>
                     <a
-                        href='https://main.d3g0kvhjymladl.amplifyapp.com/'
+                        href='https://www.animatch.dev/'
                         target='_blank'
                         rel="noopener noreferrer"
                         className="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold py-1.5 px-3 rounded-lg"
