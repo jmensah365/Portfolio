@@ -2,6 +2,7 @@ import '../../App.css'
 import JavaCertCard from './CertificationCards/JavaCertCard'
 import ASTQBCertCard from './CertificationCards/ASTQBCertCard'
 import DHSCertCard from './CertificationCards/DHSCertCard'
+import AWSCert from './CertificationCards/AWSCertCard'
 
 function CertificationSection() {
     return (
@@ -15,6 +16,8 @@ function CertificationSection() {
                     <ASTQBCertCard />
                     {/* DHS Certification Card */}
                     <DHSCertCard />
+                    {/* AWS Certification Card */}
+                    <AWSCert />
                 </div>
             </div>
             {/* Accessibility Certifications */}
